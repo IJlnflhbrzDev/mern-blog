@@ -17,9 +17,13 @@
 
 .right {
 	width: 460px;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
 	background-color: white;
 	height: 100%;
 	padding: 30px;
+
 	.title {
 		font-size: 20px;
 		font-weight: bold;
