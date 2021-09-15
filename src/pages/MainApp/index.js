@@ -3,12 +3,17 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import Home from '../Home';
 import CreateBlog from '../CreateBlog';
 import DetailBlog from '../DetailBlog';
+import { Header, Footer } from '../../component';
+
 
 
 const MainApp = () => {
      return (
           <div>
-               <p>Header</p>
+               {/* Header Page  */}
+               <Header />
+
+               {/* Dinamic Routes Content Berlapis */}
                <Router>
                     <Switch>
                          <Route path="/create-blog">
@@ -24,7 +29,9 @@ const MainApp = () => {
                     </Switch>
 
                </Router>
-               <p>Footer</p>
+
+               {/* Footer Page  */}
+               <Footer />
           </div>
      )
 }
