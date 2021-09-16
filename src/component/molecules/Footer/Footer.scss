@@ -42,3 +42,13 @@
 		margin: 0px;
 	}
 }
+
+@media (max-width: 552px) {
+	.footer {
+		flex-direction: column;
+
+		.logo {
+			margin-bottom: 40px;
+		}
+	}
+}

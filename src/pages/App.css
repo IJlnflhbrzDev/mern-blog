@@ -3,7 +3,13 @@ body,
 #root {
 	height: 100%;
 }
+html,
+body {
+	overflow-x: hidden;
+	scroll-behavior: smooth;
+}
 * {
+	transition: all 0.75s ease;
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
