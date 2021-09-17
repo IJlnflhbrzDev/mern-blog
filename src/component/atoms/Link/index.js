@@ -3,7 +3,7 @@ import './index.scss'
 
 const Link = ({ title, onClick }) => {
      return (
-          <p className="link">
+          <p className="link" onClick={onClick}>
                {title}
           </p>
      )
